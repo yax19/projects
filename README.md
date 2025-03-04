@@ -10,7 +10,7 @@ Choose Your Own Adventure: The Village Hero
 Embark on a thrilling adventure in the country of Gambia as you quest to find a legendary artifact hidden deep in the jungle. Make choices that determine your fate and see if you can complete the quest!
 
 ## Getting Started
-- [Get game code here](https://github.com/yax19/projects)
+- [Play game here](https://yax19.github.io/projects/)
 
 ## Attributions
 - Images used in the game are sourced from [here](https://app.leonardo.ai/image-generation).
