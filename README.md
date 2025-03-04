@@ -12,15 +12,15 @@ Embark on a thrilling adventure in the country of Gambia as you quest to find a 
 ## Getting Started
 - [Play game here](https://yax19.github.io/projects/)
 
-## Attributions
+## Other links
 - Images used in the game are sourced from [here](https://app.leonardo.ai/image-generation).
 
-## Technologies Used
+## Languagess Used
 - HTML
 - CSS
 - JavaScript
 
-## Next Steps
+## Possible Updates to the game
 - Add more stages and choices to the game.
 - Implement animations and sound effects.
 - Enhance the user interface with additional styling.
