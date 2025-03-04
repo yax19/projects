@@ -1,1 +1,41 @@
+1. Project Goals
+Objective: Develop an interactive "Choose Your Own Adventure" game that engages users with multiple story branches and endings.
+Success Criteria: The game should be error-free, accessible, and deployed online.
+2. Requirements
+Features:
 
+Multiple story branches and endings.
+User choice inputs with story updates.
+Win/loss conditions with appropriate messages.
+Restart function.
+Accessible design with proper contrast and alt text for images.
+
+Time: Complete the project before march 4th.
+ Ensure compatibility with modern web browsers.
+
+3. Project Tasks
+Planning and Design
+ Define Story Structure: Outline the main story branches and endings.
+ Design the layout of the game interface
+ Plan User Interactions: Determine how users will interact with the game and make choices.
+Development
+ Organize files into appropriate folders (HTML, CSS, JavaScript).
+ Develop HTML Structure: Create the basic HTML structure for the game interface.
+ Implement CSS Styling: Style the game using CSS Flexbox or Grid for layout design.
+ Write JavaScript Logic:
+ Implement the core game logic in app.js.
+ Create story data in data.js.
+ Handle user choices and update the story.
+ Implement Win/Loss Conditions: Display messages based on the game's outcome.
+ Add Restart Function: Allow users to restart the game.
+
+Testing
+ Conduct Unit Tests: Test individual components and functions.
+
+Deployment
+ Deploy the Game: GitHub 
+ Test Deployed Game: Ensure the game functions correctly after deployment.
+
+Documentation
+ Create README File: Include a game description, instructions,and  Languages  used.
+ Document Code: Add comments and/or phesudo code to the code for better understanding.
