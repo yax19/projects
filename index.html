@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Own Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>THE VILLAGE HERO</h1>
+        <button id="startButton">Start Game</button>
+        <div id="gameSection" class="hidden">
+            <img class="story-image" id="storyImage" src="" alt="Stage Image">
+            <div class="story-text" id="storyText"></div>
+            <button class="choiceButton" id="choice1"></button>
+            <button class="choiceButton" id="choice2"></button>
+            <div id="message" class="hidden"></div>
+        </div>
+        <div id="instructions">
+            <h2>How to Play</h2>
+            <p>Read the story, make your choices, and see if you can complete the quest!</p>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

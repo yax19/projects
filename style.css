@@ -1,0 +1,89 @@
+/* Set the base styles for the body element */
+body {
+    font-family: 'Arial', sans-serif; /* Set the font family */
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Set the height to 100% of the viewport */
+    margin: 0; /* Remove the default margin */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Set a linear gradient background */
+    color: #fff; /* Set the text color to white */
+}
+
+/* Style the game container */
+.game-container {
+    text-align: center; /* Center the text */
+    background-color: rgba(0, 0, 0, 0.7); /* Set a semi-transparent black background */
+    padding: 30px; /* Add padding */
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+    width: 450px; /* Set the width */
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 36px; /* Set the font size */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    color: #ffeb3b; /* Set the text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
+}
+
+/* Style the story text */
+.story-text {
+    font-size: 18px; /* Set the font size */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    line-height: 1.6; /* Set the line height */
+    max-height: 0; /* Initially hide the text */
+    overflow: hidden; /* Hide the overflow */
+    transition: max-height 0.5s ease-out; /* Add a transition effect */
+}
+
+/* Show the story text when the 'visible' class is added */
+.story-text.visible {
+    max-height: 200px; /* Set the maximum height to display the text */
+}
+
+/* Style the story image */
+.story-image {
+    max-width: 100%; /* Set the maximum width */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Style the start button and choice buttons */
+#startButton, .choiceButton {
+    padding: 15px 30px; /* Add padding */
+    font-size: 18px; /* Set the font size */
+    cursor: pointer; /* Change the cursor to a pointer */
+    background-color: #ff5733; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    margin-top: 10px; /* Add margin at the top */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition effects */
+}
+
+/* Change the background color and scale the buttons on hover */
+#startButton:hover, .choiceButton:hover {
+    background-color: #ff3300; /* Set the background color on hover */
+    transform: scale(1.05); /* Scale the buttons on hover */
+}
+
+/* Hide elements with the 'hidden' class */
+.hidden {
+    display: none; /* Hide the elements */
+}
+
+/* Style the instructions section */
+#instructions {
+    margin-top: 20px; /* Add margin at the top */
+    font-size: 16px; /* Set the font size */
+}
+
+/* Style the message element */
+#message {
+    font-size: 18px; /* Set the font size */
+    margin-top: 20px; /* Add margin at the top */
+    color: red; /* Set the text color */
+}
